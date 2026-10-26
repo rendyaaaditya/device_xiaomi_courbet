@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Trees (Racikan AxionOS v2.9 milik Rendy) -->
+  <project path="device/xiaomi/courbet" name="rendyaaaditya/device_xiaomi_courbet" remote="github" revision="lineage-23.2" />
+  <project path="device/xiaomi/sm6150-common" name="rendyaaaditya/device_xiaomi_sm6150-common" remote="github" revision="lineage-23.2" />
+
+  <!-- Vendor Blobs (Dari meloalfa159 Android 16) -->
+  <project path="vendor/xiaomi/courbet" name="meloalfa159/vendor_xiaomi_courbet" remote="github" revision="16.0" />
+  <project path="vendor/xiaomi/sm6150-common" name="meloalfa159/vendor_xiaomi_sm6150-common" remote="github" revision="sedici" />
+
+  <!-- Kernel Source (AlfaKernel + KernelSU-Next dari meloalfa159) -->
+  <project path="kernel/xiaomi/sm6150" name="meloalfa159/kernel_xiaomi_sm6150" remote="github" revision="sedici" />
+
+  <!-- Leica MiuiCamera Holy45 -->
+  <project path="device/xiaomi/miuicamera-sweet" name="meloalfa159/device_xiaomi_miuicamera-sweet" remote="github" revision="16.0" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="meloalfa159/vendor_xiaomi_miuicamera-sweet" remote="github" revision="16.0" />
+
+  <!-- Hardware Xiaomi untuk Android 16 QPR2 -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+</manifest>
